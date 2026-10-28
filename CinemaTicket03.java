@@ -8,7 +8,6 @@ public class CinemaTicket03 {
         int tickets;
         int totalTickets = 0;
         double price, totalSales = 0, discount = 0;
-        int totalPrice;
 
         while (true) {
             System.out.print("Enter number of tickets (0 to finish): ");
@@ -39,5 +38,7 @@ public class CinemaTicket03 {
 
         System.out.println("Total tickets sold: " + totalTickets);
         System.out.println("Total ticket sales: Rp " + totalSales);
+
+        sc.close();
     }
 }

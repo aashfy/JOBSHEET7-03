@@ -31,5 +31,6 @@ public class KafeDoWhile03 {
         } while (true);
 
         System.out.println("All transactions completed.");
+        sc.close();
     }
 }

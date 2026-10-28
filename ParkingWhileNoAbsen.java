@@ -28,5 +28,6 @@ public class ParkingWhileNoAbsen {
         }
 
         System.out.println("Total parking fee: Rp " + total);
+        sc.close();
     }
 }
